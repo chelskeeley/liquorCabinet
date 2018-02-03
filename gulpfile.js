@@ -10,6 +10,7 @@ const source = require('vinyl-source-stream');
 const buffer = require('vinyl-buffer');
 const notify = require('gulp-notify');
 const browserify = require('browserify');
+const historyApiFallback = require('connect-history-api-fallback');
 
 
 gulp.task('styles', () => {
